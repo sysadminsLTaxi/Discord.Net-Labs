@@ -59,7 +59,7 @@ public async Task Spawn()
     var builder = new ComponentBuilder()
         .WithButton("label", "custom-id");
 
-    await ReplyAsync("Here is a button!", components: builder.Build());
+    await ReplyAsync("Here is a button!", component: builder.Build());
 }
 ```
 
